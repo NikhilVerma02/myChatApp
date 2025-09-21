@@ -4,7 +4,7 @@ import io from 'socket.io-client';
 import { v4 as uuidv4 } from 'uuid';
 import toast, { Toaster } from 'react-hot-toast';
 
-const socket = io("http://localhost:5000");
+const socket = io("https://mychatapp-2.onrender.com");
 
 const App = () => {
   const [joined, setJoined] = useState(false);
