@@ -79,8 +79,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  /* background-color: #2174e0; */
-  background-image:url(background.png);
+  background-color: black; 
   background-size: cover;
   background-position: center 170px;
 }
